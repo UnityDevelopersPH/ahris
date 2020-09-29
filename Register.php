@@ -7,14 +7,14 @@
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
   <title> Ahris PH | Create Account </title>
-  <?php include('header-stylesheets.php'); ?>
+  <?php include('includes/header-stylesheets.php'); ?>
 </head>
 
 <body class="bg-default">
   <!-- Navbar -->
   <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../index.php">
         <h1 class="text-white">Ahris PH! </h1>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
         <div class="navbar-collapse-header">
           <div class="row">
             <div class="col-6 collapse-brand">
-              <a href="../../pages/dashboards/dashboard.html">
+              <a href="../index.php">
                 <h1 class="text-gray">Ahris PH! </h1>
               </a>
             </div>
@@ -166,6 +166,11 @@
               </form>
             </div>
           </div>
+           <div class="row mt-3">
+            <div class="col-12 text-center">
+              <small class="text-white"> Already have an Account ? </small><a href="Login.php" class="text-light"><small> Sign in</small></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -182,17 +187,17 @@
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About us</a>
+              <a href="#" class="nav-link" target="_blank">About us</a>
             </li>
             <li class="nav-item">
-              <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blogs</a>
+              <a href="#" class="nav-link" target="_blank">Blogs</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
-  <?php include('Footer.php'); ?>
+  <?php include('includes/Footer.php'); ?>
 </body>
 
 </html>

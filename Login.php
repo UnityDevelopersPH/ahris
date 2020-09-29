@@ -6,7 +6,7 @@
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
   <title>Ahris PH | Login </title>
-  <?php include('header-stylesheets.php'); ?>
+  <?php include('includes/header-stylesheets.php'); ?>
 </head>
 
 <body class="bg-default">
@@ -140,17 +140,17 @@
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About us</a>
+              <a href="#" class="nav-link" target="_blank">About us</a>
             </li>
             <li class="nav-item">
-              <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blogs</a>
+              <a href="#" class="nav-link" target="_blank">Blogs</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
-  <?php include('Footer.php'); ?>
+  <?php include('includes/Footer.php'); ?>
 </body>
 
 </html>
